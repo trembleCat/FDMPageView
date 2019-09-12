@@ -54,5 +54,5 @@ FDMPageView（轻量级父子控制器）
    
 萌新iOS开发者，欢迎报bug  -----------------------------------------------  
   
-![截图](https://github.com/trembleCat/FDMPageView/blob/master/LOOKME.jpg)  
+<img src="https://github.com/trembleCat/FDMPageView/blob/master/LOOKME.jpg" width="375" alt="截图"/>  
 
