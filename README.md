@@ -2,16 +2,17 @@
     
 FDMPageView（轻量级父子控制器）
     
-标题选项控件使用[JXPagingView](https://github.com/pujiaxin33/JXPagingView) 的Title
+标题选项控件使用[JXPagingView](https://github.com/pujiaxin33/JXPagingView) 的基础Title
     
    
 说明：  ------------------------------------------------------------------------
     
-    1.使用时会将所有控制器视图添加到主控件上，不会造成滑动白屏的现象    
-    2.可以随意增加或删除某个页面    
-    3.使用方法类似UIView，简单快速   
-    4.文字颜色大小等属性请查看segmentedDataSource   
-    5.在修改内部属性后需调用刷新方法 - func reloadView(  )  
+1.使用时会将所有控制器视图添加到主控件上，不会造成滑动白屏的现象   
+2.可以随意增加或删除某个页面    
+3.使用方法类似UIView，简单快速   
+4.文字颜色大小等属性请查看segmentedDataSource   
+5.在修改内部属性后需调用刷新方法 - func reloadView(  )  
+      
      
 快速初始化   ------------------------------------------------------------------
   
