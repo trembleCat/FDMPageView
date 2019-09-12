@@ -17,25 +17,26 @@ FDMPageView（轻量级父子控制器）
      
 ### 快速初始化   ------------------------------------------------------------------  
   
-```    
+```swift     
     class ViewController: UIViewController {  
         let subVCArray = [SubVCOne(),SubVCThree(),SubVCTwo()]  
         var titleArray = ["one","three","two"]  
         
         override func viewDidLoad() {  
         super.viewDidLoad()    
+        
         let pageV = FDMPageView()  
         self.view.addSubview(pageV)
-        
         pageV.frame = CGRect(x: 100, y: 100, width: 300, height: 500)  
         pageV.initWithJXPagingView(target: self, titleArray: self.titleArray, controllerArray: self.subVCArray)  
+          
         }  
     }  
 ```
       
 ### 主要方法列表   ---------------------------------------------------------------   
     
-```
+```swift 
     初始化  
         func initWithJXPagingView(target:UIViewController,titleArray:Array<String>,controllerArray:Array<UIViewController>)   
     刷新控件  
