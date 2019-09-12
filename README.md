@@ -5,16 +5,18 @@ FDMPageView（轻量级父子控制器）
 标题选项控件使用[JXSegmentedView](https://github.com/pujiaxin33/JXSegmentedView) 的基础Title  
     
    
-###说明：  ------------------------------------------------------------------------
+### 说明：  ------------------------------------------------------------------------
     
-1.使用时会将所有控制器视图添加到主控件上，不会造成滑动白屏的现象   
-2.可以随意增加或删除某个页面    
-3.使用方法类似UIView，简单快速   
-4.文字颜色大小等属性请查看segmentedDataSource   
-5.在修改内部属性后需调用刷新方法 - func reloadView(  )  
+    
+ - 使用时会将所有控制器视图添加到主控件上，不会造成滑动白屏的现象   
+ - 可以随意增加或删除某个页面    
+ - 使用方法类似UIView，简单快速   
+ - 文字颜色大小等属性请查看segmentedDataSource   
+ - 在修改内部属性后需调用刷新方法 - func reloadView(  )  
       
      
-###快速初始化   ------------------------------------------------------------------
+### 快速初始化   ------------------------------------------------------------------  
+  
 ```    
     class ViewController: UIViewController {  
         let subVCArray = [SubVCOne(),SubVCThree(),SubVCTwo()]  
@@ -31,7 +33,7 @@ FDMPageView（轻量级父子控制器）
     }  
 ```
       
-###主要方法列表   ---------------------------------------------------------------
+### 主要方法列表   ---------------------------------------------------------------   
     
 ```
     初始化  
@@ -54,7 +56,8 @@ FDMPageView（轻量级父子控制器）
         func removeControllerWith(Index index:Int)  
 ```
    
-###萌新iOS开发者，欢迎报bug  -----------------------------------------------  
+### 萌新iOS开发者，欢迎报bug  -----------------------------------------------    
   
-<img src="https://github.com/trembleCat/FDMPageView/blob/master/LOOKME.jpg" width="300" height="500" alt="截图"/>  
+<img src="https://github.com/trembleCat/FDMPageView/blob/master/LOOKME.jpg" width="300" height="500" alt="截图"/>    
+  
 
