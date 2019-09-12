@@ -52,9 +52,9 @@ FDMPageView（轻量级父子控制器）
     添加一个页面在最后  
         func addControllerForLast(controller:UIViewController,title:String)  
     重新添加所有页面  
-        func addAllController(titleArray:Array<String>,controllerArray:Array<UIViewController>)   
-    删除某个页面(仅有一个页面时不能删除)  
-        func removeControllerWith(Index index:Int)  
+        func addAllController(titleArray:Array<String>,controllerArray:Array<UIViewController>)     
+    删除某个页面       
+        func removeControllerWith(Index index:Int)     
 ```
    
 ### 萌新iOS开发者，欢迎报bug  -----------------------------------------------    
