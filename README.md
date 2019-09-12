@@ -2,8 +2,8 @@
     
 FDMPageView（轻量级父子控制器）
     
-标题选项控件使用JXPagingView的Title    
-[JXPagingView](https://github.com/pujiaxin33/JXPagingView)   
+标题选项控件使用[JXPagingView](https://github.com/pujiaxin33/JXPagingView) 的Title
+    
    
 说明：  ------------------------------------------------------------------------
     
@@ -54,5 +54,5 @@ FDMPageView（轻量级父子控制器）
    
 萌新iOS开发者，欢迎报bug  -----------------------------------------------  
   
-    ![截图](https://github.com/trembleCat/FDMPageView/blob/master/LOOKME.jpg)  
+![截图](https://github.com/trembleCat/FDMPageView/blob/master/LOOKME.jpg)  
 
