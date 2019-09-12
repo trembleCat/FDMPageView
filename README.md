@@ -54,7 +54,9 @@ FDMPageView（轻量级父子控制器）
     重新添加所有页面  
         func addAllController(titleArray:Array<String>,controllerArray:Array<UIViewController>)     
     删除某个页面       
-        func removeControllerWith(Index index:Int)     
+        func removeControllerWith(Index index:Int)  
+    设置选中页面
+        func selectIndex(index:Int)
 ```
    
 ### 萌新iOS开发者，欢迎报bug  -----------------------------------------------    
