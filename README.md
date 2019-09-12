@@ -39,24 +39,26 @@ FDMPageView（轻量级父子控制器）
 ```swift 
     初始化  
         func initWithJXPagingView(target:UIViewController,titleArray:Array<String>,controllerArray:Array<UIViewController>)   
-    刷新控件  
-        func reloadView()   
-    点击选中或者滚动选中都会调用该闭包  
-        func pageViewDidSelected(_ item:@escaping segmentedItem)   
-    点击选中的情况才会调用该闭包  
-        func pageViewDidClick(_ item:@escaping segmentedItem)   
-    滚动选中的情况才会调用该闭包  
-        func pageViewDidScrollClick(_ item:@escaping segmentedItem)   
-    滚动时会调用该闭包  
-        func pageViewDidScroll(_ item:@escaping segmentedDidScroll)   
-    添加一个页面在最后  
-        func addControllerForLast(controller:UIViewController,title:String)  
-    重新添加所有页面  
-        func addAllController(titleArray:Array<String>,controllerArray:Array<UIViewController>)     
-    删除某个页面       
+    刷新控件   
+        func reloadView()    
+    设置选中页面  
+        func selectIndex(index:Int)  
+    删除某个页面        
         func removeControllerWith(Index index:Int)  
-    设置选中页面
-        func selectIndex(index:Int)
+    添加一个页面在最后   
+        func addControllerForLast(controller:UIViewController,title:String)       
+    重新添加所有页面    
+        func addAllController(titleArray:Array<String>,controllerArray:Array<UIViewController>)  
+        
+        
+    滚动时会调用该闭包    
+        func pageViewDidScroll(_ item:@escaping segmentedDidScroll)  
+    点击选中的情况才会调用该闭包   
+        func pageViewDidClick(_ item:@escaping segmentedItem)    
+    滚动选中的情况才会调用该闭包   
+        func pageViewDidScrollClick(_ item:@escaping segmentedItem)  
+    点击选中或者滚动选中都会调用该闭包    
+        func pageViewDidSelected(_ item:@escaping segmentedItem)   
 ```
    
 ### 萌新iOS开发者，欢迎报bug  -----------------------------------------------    
