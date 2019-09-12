@@ -124,12 +124,12 @@
 			isa = PBXGroup;
 			children = (
 				C838E6FD2328CD450053EF72 /* FDMPageView.swift */,
-				C838E6BF2328C7890053EF72 /* JXPagingView */,
+				C838E6BF2328C7890053EF72 /* JXSegmentedView */,
 			);
 			path = FDMPageView;
 			sourceTree = "<group>";
 		};
-		C838E6BF2328C7890053EF72 /* JXPagingView */ = {
+		C838E6BF2328C7890053EF72 /* JXSegmentedView */ = {
 			isa = PBXGroup;
 			children = (
 				C838E6EB2328C8500053EF72 /* Common */,
@@ -137,7 +137,7 @@
 				C838E6CB2328C7F40053EF72 /* Title */,
 				C838E6C02328C7CD0053EF72 /* Core */,
 			);
-			path = JXPagingView;
+			path = JXSegmentedView;
 			sourceTree = "<group>";
 		};
 		C838E6C02328C7CD0053EF72 /* Core */ = {
