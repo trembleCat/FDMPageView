@@ -52,11 +52,7 @@ FDMPageView（轻量级父子控制器）
         func removeControllerWith(Index index:Int)  
    
    
-<<<<<<< HEAD
 萌新iOS开发者，欢迎报bug  -----------------------------------------------  
   
-    ![截图](https://github.com/trembleCat/FDMPageView/blob/master/LOOKME.jpg)
+    ![截图](https://github.com/trembleCat/FDMPageView/blob/master/LOOKME.jpg)  
 
-=======
-萌新iOS开发者，欢迎报bug  ----------------------------------------------- 
->>>>>>> a5c55ba8812594c828ff01b6f64acca0734b3ea5
