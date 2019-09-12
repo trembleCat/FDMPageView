@@ -60,6 +60,8 @@ class FDMPageView: UIView {
             func addAllController(titleArray:Array<String>,controllerArray:Array<UIViewController>)
      删除某个页面(仅有一个页面时不能删除)
             func removeControllerWith(Index index:Int)
+     设置选中页面
+            func selectIndex(index:Int)
  
      ====================================================================================================  */
 }
@@ -178,6 +180,11 @@ extension FDMPageView{
         titleAry?.remove(at: index)
         segmentedDataSource.titles = titleAry ?? []
         reloadView()
+    }
+    
+    ///设置选中页面
+    func selectIndex(index:Int){
+        self.segmentedView.selectItemAt(index: index)
     }
 }
 
