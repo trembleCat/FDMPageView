@@ -2,7 +2,7 @@
     
 FDMPageView（轻量级父子控制器）
     
-注：标题选项控件使用[JXSegmentedView](https://github.com/pujiaxin33/JXSegmentedView)的基础Title，感谢[pujiaxin33](https://github.com/pujiaxin33)提供的技术支持   
+标题选项控件使用[JXSegmentedView](https://github.com/pujiaxin33/JXSegmentedView)的基础Title。
     
    
 ### 说明  ------------------------------------------------------------------------
